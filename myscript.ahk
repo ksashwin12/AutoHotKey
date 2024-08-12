@@ -18,3 +18,10 @@
     else
         Run "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --profile-directory='Default'"
 }
+
+#C:: {
+    if WinExist("ahk_exe Code.exe")
+        WinActivate
+    else
+        Run "C:\Users\Night\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+}
