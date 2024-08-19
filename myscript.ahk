@@ -13,10 +13,10 @@
 }
 
 #B:: {
-    if WinExist("ahk_exe brave.exe")
+    if WinExist("ahk_exe Arc.exe")
         WinActivate
     else
-        Run "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --profile-directory='Default'"
+        Run "arc"
 }
 
 #C:: {
